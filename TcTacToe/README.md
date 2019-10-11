@@ -28,7 +28,7 @@ Die Ergebnisse werden am Abend bei einem Bierchen vorgestellt und mit angemessen
     * Spieler, der an der Reihe ist als String: ("X" oder "O")
     * Aktueller Zustand als String: "X/-"(Spieler X hat gewonnen) oder "-/O"(Spieler O hat gewonnen) oder "-/-"(Unentschieden)
   * `POST /ttt/:id/player`: Ordnet dem Spiel mit der angegebenen ID einen neuen Spieler zu und gibt die ID des Spielers als 
-  String, sowie die (zufällig) gewählte Seite zurück. ** X fängt an! **
+  String, sowie die (zufällig) gewählte Seite zurück. **X fängt an!**
   Das ist zwar nur eine minimale Absicherung gegen Trolle, aber besser als gar nichts... ;-)
   **Die Zuordnung zu einem Symbol ist Zufällig (X oder O) und der Server merkt sie sich intern!**
   * `POST /ttt/:id/move`: Postet einen neuen Zug, den der Server durchführt, sofern er gültig ist. Parameter im JSON-Body:
