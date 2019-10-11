@@ -26,7 +26,7 @@ Die Ergebnisse werden am Abend bei einem Bierchen vorgestellt und mit angemessen
       ```
       * **Beispiel**: **`"-O--XOX--"`**
     * Spieler, der an der Reihe ist als String: ("X" oder "O")
-    * Aktueller Zustand: "X/-"(Spieler X hat gewonnen) oder "-/O"(Spieler O hat gewonnen) oder "-/-"(Unentschieden)
+    * Aktueller Zustand als String: "X/-"(Spieler X hat gewonnen) oder "-/O"(Spieler O hat gewonnen) oder "-/-"(Unentschieden)
 * *Optional* kann das Executable den Kommandozeilenparameter `--cli` bereitstellen, um interaktiv auf der Shell testen zu können. 
   In diesem Fall muss natürlich ein zusätzliches ASCII-Interface via stdin/stdout implementiert werden. 
 
