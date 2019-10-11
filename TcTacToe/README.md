@@ -45,6 +45,13 @@ Der Client soll in einem Browser laufen und das oben beschriebene REST-Interface
 1. den Spielern ein möglichst immersives und packendes Spielerlebnis zu bereiten und
 2. es Zuschauern ermöglchen, dem Kampf der Gladiatoren in quasi-Echtzeit beizuwohnen
 
+### Lieferartefakte
+* Eine Client-Applikation
+* Eine ausführbare Serverkomponente
+* **Optional:** Ideal wäre ein Docker-Container, in dem der Serveranteil läuft
+
+**_Die Wahl der Waffen (der Entwicklungsumgebungen, Werkzeuge und Sprachen) ist frei!_**
+
 ### Zeitrahmen
 Ein Tag. Nur kein Streß! 
 
