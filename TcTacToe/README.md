@@ -25,7 +25,7 @@ Die Ergebnisse werden am Abend bei einem Bierchen vorgestellt und mit angemessen
          6 | 7 | 8
       ```
       * **Beispiel**: **`"-O--XOX--"`**
-    * Spieler, der an der Reihe ist als String: ("X" oder "O")
+    * Spieler, der an der Reihe ist als String: ("X" oder "O" oder "-"(Spiel ist vorbei))
     * Aktueller Zustand als String: "X/-"(Spieler X hat gewonnen) oder "-/O"(Spieler O hat gewonnen) oder "-/-"(Unentschieden)
   * `POST /ttt/:id/player`: Ordnet dem Spiel mit der angegebenen ID einen neuen Spieler zu und gibt die ID des Spielers als 
   String, sowie die (zufällig) gewählte Seite zurück. **X fängt an!**
