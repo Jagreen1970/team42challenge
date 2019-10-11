@@ -13,7 +13,7 @@ Die Ergebnisse werden am Abend bei einem Bierchen vorgestellt und mit angemessen
 * Der Server soll folgende REST-Api bereitstellen:
   * `POST /ttt/`:Erzeugt ein neues Spiel und gibt dessen eindeutige ID zurück
   * `GET /ttt/`: Gibt eine Liste der aktiven Spiele zurück
-  * `GET /ttt/:id`: Gibt den aktuellen Zustand des Spieles zurück. Parameter im JSON-Body:
+  * `GET /ttt/:id`: Gibt den aktuellen Zustand des Spieles zurück. Parameter in der JSON-Response:
     * Spielbrett als String mit einer Länge von 9 Zeichen.
       * Erlaubte Zeichen: "X"(Spielstein X), "O"(Spielstein O) und "-"(leeres Feld)
       * Die Felder des Spielbrettes sind von links nach rechts in den bekannten 3 Zeilen numeriert:
